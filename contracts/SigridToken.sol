@@ -151,7 +151,7 @@ contract SigridToken is IERC20 {
     uint8 public constant _decimals = 18;
 
     constructor() public {
-        _mint(msg.sender, 1000 * 10 ** uint(_decimals)); // 주의!
+        _mint(msg.sender, 180 * 10 ** uint(_decimals)); // 주의!
     }
 
     function name() public view returns (string memory) {
